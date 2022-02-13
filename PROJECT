@@ -1,0 +1,9 @@
+domain: lit.plus
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: rsync-backup-operator
+repo: github.com/literalplus/rsync-backup-operator
+version: "3"
